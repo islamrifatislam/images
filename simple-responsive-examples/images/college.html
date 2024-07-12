@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>picture colloge</title>
+    <style>
+        img{
+            width: 100%;
+            height: 100%;
+        }
+      .row>div{
+        flex: 1;
+      }
+      .conainer{
+        display: flex;
+        height: 1000px;
+        gap: 25px;
+      }
+      .conainer>img{
+        flex: 6;
+      }
+.square{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+}
+        .row{
+            height: 1000px; 
+            display: flex;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+         .content img{
+        height: 50%;
+            }
+        
+    </style>
+</head>
+<body>
+   <header>
+    <h1>my first colloge</h1>
+</header> 
+    <section>
+    <div class="row">
+    <img src="A.jpg" alt="" srcset="">
+    </div>
+    <div>
+        <div class="row">
+            <div>
+            <img src="B.jpg" alt="">
+            </div>
+           <div> <img src="C.jpg" alt="">
+            </div>
+            <div class="content">
+            <img src="D.jpg" alt="">
+            <img src="E.jpg" alt="">
+            </div>
+
+</div>
+</section> 
+<main class="conainer">
+    <div>
+        <img src="F.jpg" alt="">
+    </div>
+    <div class="square">
+        <img src="G.jpg" alt="">
+        <img src="G.jpg" alt="">
+        <img src="G.jpg" alt="">
+        <img src="G.jpg" alt="">
+    </div>
+    <img src="H.jpg" alt="">
+
+</main>
+</body>
+</html>
